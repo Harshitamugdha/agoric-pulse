@@ -57,64 +57,72 @@ The vision of this project is to revolutionize the food delivery industry by lev
 ├── .devcontainer/
 │   ├── ...
 │   └── ...
-
 │       # Container development environment configuration
+
 ├── .git/
 │   ├── ...
 │   └── ...
-
 │       # Git version control system files
+
 ├── .github/
 │   ├── ...
 │   └── ...
-
 │       # GitHub-specific configuration and workflows
+
 ├── _agstate/
 │   ├── ...
 │   └── ...
-
 │       # Temporary state files for various tools
+
 ├── api/
 │   ├── ...
 │   └── ...
-
 │       # API-related code and resources
+
 ├── contract/
 │   ├── ...
 │   └── ...
-
 │       # Smart contract code and related files
+
 ├── node_modules/
 │   ├── ...
 │   └── ...
-
 │       # Node.js project dependencies
+
 ├── scripts/
 │   ├── ...
 │   └── ...
-
 │       # Scripts for automation and other tasks
+
 ├── ui/
 │   ├── ...
 │   └── ...
-
 │       # User interface code and assets
+
 ├── .gitignore
 │       # Specifies intentionally untracked files and directories
+
 ├── yarnrc
 │       # Yarn configuration file
+
 ├── CONTRIBUTING.md
 │       # Guidelines for contributing to the project
+
 ├── docker-compose.yml
 │       # Docker Compose configuration file for defining and running multi-container Docker applications
+
 ├── make_ports_public.sh
 │       # Script to expose container ports to the host machine
+
 ├── package.json
 │       # Node.js package manifest file
+
 ├── README.md
 │       # General project documentation and instructions
+
 ├── README-local-chain.md
 │       # Documentation specific to local blockchain setup
+
 └── yarn.lock
 │       # Locked dependency versions for Yarn
 
