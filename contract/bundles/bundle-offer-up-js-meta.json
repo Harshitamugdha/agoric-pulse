@@ -1,0 +1,745 @@
+{
+  "bundleFileName": "bundle-offer-up.js",
+  "bundleTime": "2024-11-25T17:25:06.547Z",
+  "bundleSize": 751041,
+  "moduleSource": {
+    "relative": "../../src/offer-up.contract.js",
+    "absolute": "/workspace/contract/src/offer-up.contract.js"
+  },
+  "contents": [
+    {
+      "relativePath": "",
+      "mtime": "2024-11-25T16:23:55.744Z",
+      "size": 4673
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/far/src/index.js",
+      "mtime": "2024-11-25T14:58:05.144Z",
+      "size": 1240
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/index.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 1898
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/amountMath.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 13784
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/typeGuards.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 8825
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zoe/src/contractSupport/atomicTransfer.js",
+      "mtime": "2024-11-25T16:23:18.429Z",
+      "size": 3885
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zoe/exported.js",
+      "mtime": "2024-11-25T16:23:18.429Z",
+      "size": 49
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/src/no-shim.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 474
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/index.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 1119
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/checkKey.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 14735
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/copySet.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 3011
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/copyBag.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 3991
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/compareKeys.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 8303
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/merge-set-operators.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 9558
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/merge-bag-operators.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 8748
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/patterns/patternMatchers.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 63335
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/patterns/getGuardPayloads.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 9710
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/types.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 21981
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/list-difference.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 755
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/object-map.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 2213
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/mathHelpers/natMathHelpers.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 1159
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/mathHelpers/setMathHelpers.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 1131
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/mathHelpers/copySetMathHelpers.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 684
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/mathHelpers/copyBagMathHelpers.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 677
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/errors/index.js",
+      "mtime": "2024-11-25T14:58:04.390Z",
+      "size": 2711
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/index.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 1071
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/index.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 1880
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zoe/src/typeGuards.js",
+      "mtime": "2024-11-25T16:23:18.429Z",
+      "size": 12764
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/src/E.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 14323
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/src/exports.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 76
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/iter-helpers.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 1810
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/passStyle-helpers.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 6320
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/error.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 6248
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/remotable.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 8535
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/symbol.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 3971
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/string.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 3121
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/passStyleOf.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 12909
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/makeTagged.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 792
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/make-far.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 8349
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/typeGuards.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 2220
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/deeplyFulfilled.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 4741
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/types.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 47
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/ident-checker.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 1613
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/patterns/src/keys/keycollection-operators.js",
+      "mtime": "2024-11-25T14:58:05.372Z",
+      "size": 7647
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/apply-labeling-error.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 2206
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/from-unique-entries.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 943
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/nat/src/index.js",
+      "mtime": "2024-11-25T14:58:05.367Z",
+      "size": 2525
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/encodeToCapData.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 16039
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/marshal.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 14674
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/marshal-stringify.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 1370
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/marshal-justin.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 13298
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/encodePassable.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 29163
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/rankOrder.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 15858
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/types.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 8177
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/stores/scalarWeakSetStore.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 3300
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/stores/scalarSetStore.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 3085
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/stores/scalarWeakMapStore.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 4581
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/stores/scalarMapStore.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 4960
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/stores/store-utils.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 6341
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/legacy/legacyMap.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 2578
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/legacy/legacyWeakMap.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 1408
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/store/src/types.js",
+      "mtime": "2024-11-25T16:23:18.531Z",
+      "size": 7815
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/exo/index.js",
+      "mtime": "2024-11-25T14:58:06.409Z",
+      "size": 225
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/index.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 408
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/index.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 920
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/time/index.js",
+      "mtime": "2024-11-25T16:23:19.848Z",
+      "size": 166
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/src/track-turns.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 3945
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/src/message-breakpoints.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 5618
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/env-options/index.js",
+      "mtime": "2024-11-25T14:58:05.108Z",
+      "size": 38
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/copyArray.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 1574
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/copyRecord.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 2256
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/tagged.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 1557
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/pass-style/src/safe-promise.js",
+      "mtime": "2024-11-25T14:58:06.155Z",
+      "size": 4921
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/promise-kit/index.js",
+      "mtime": "2024-11-25T14:58:05.441Z",
+      "size": 1607
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/utils.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 125
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/make-iterator.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 335
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/make-array-iterator.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 600
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/throw-labeled.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 833
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/marshal/src/encodeToSmallcaps.js",
+      "mtime": "2024-11-25T14:58:05.364Z",
+      "size": 16566
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/exo/src/exo-makers.js",
+      "mtime": "2024-11-25T14:58:06.409Z",
+      "size": 6918
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/exo/src/types.js",
+      "mtime": "2024-11-25T14:58:06.409Z",
+      "size": 47
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/exo/src/get-interface.js",
+      "mtime": "2024-11-25T14:58:06.409Z",
+      "size": 826
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/issuerKit.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 13258
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/types-index.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 62
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/publish-kit.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 14436
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/subscribe.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 9406
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/notifier.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 5839
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/subscriber.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 2525
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/topic.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 1142
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/asyncIterableAdaptor.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 4148
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/storesub.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 7802
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/stored-notifier.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 2295
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/notifier/src/types-index.js",
+      "mtime": "2024-11-25T16:23:20.402Z",
+      "size": 62
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/time/src/timeMath.js",
+      "mtime": "2024-11-25T16:23:19.848Z",
+      "size": 8440
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/time/src/typeGuards.js",
+      "mtime": "2024-11-25T16:23:19.848Z",
+      "size": 1146
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/time/src/types-index.js",
+      "mtime": "2024-11-25T16:23:19.848Z",
+      "size": 58
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/env-options/src/env-options.js",
+      "mtime": "2024-11-25T14:58:05.108Z",
+      "size": 4330
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/promise-kit/src/promise-executor-kit.js",
+      "mtime": "2024-11-25T14:58:05.441Z",
+      "size": 1535
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/promise-kit/src/memo-race.js",
+      "mtime": "2024-11-25T14:58:05.441Z",
+      "size": 4808
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/promise-kit/src/is-promise.js",
+      "mtime": "2024-11-25T14:58:05.441Z",
+      "size": 290
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/promise-kit/src/types.js",
+      "mtime": "2024-11-25T14:58:05.441Z",
+      "size": 681
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/eventual-send/src/local.js",
+      "mtime": "2024-11-25T14:58:06.136Z",
+      "size": 4000
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/exo/src/exo-tools.js",
+      "mtime": "2024-11-25T14:58:06.409Z",
+      "size": 15822
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/displayInfo.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 1014
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/paymentLedger.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 12527
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/vat-data/src/index.js",
+      "mtime": "2024-11-25T16:23:20.050Z",
+      "size": 1499
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/durable.js",
+      "mtime": "2024-11-25T16:23:18.432Z",
+      "size": 52
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/upgrade-api.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 2173
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/index.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 549
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/lib-chainStorage.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 9968
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/payment.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 716
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/purse.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 6242
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/vat-data/src/vat-data-bindings.js",
+      "mtime": "2024-11-25T16:23:20.050Z",
+      "size": 6123
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/vat-data/src/exo-utils.js",
+      "mtime": "2024-11-25T16:23:20.050Z",
+      "size": 9278
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/src/durable.js",
+      "mtime": "2024-11-25T16:23:18.432Z",
+      "size": 3775
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/config.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 1354
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/debug.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 1029
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/errors.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 389
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/utils.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 11957
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/method-tools.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 3837
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/typeCheck.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 661
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/typeGuards.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 316
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/types-index.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 62
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/common/object-meta-map.js",
+      "mtime": "2024-11-25T14:58:06.123Z",
+      "size": 1884
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/src/callback.js",
+      "mtime": "2024-11-25T16:23:18.666Z",
+      "size": 9468
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/node_modules/@agoric/base-zone/heap.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 49
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/transientNotifier.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 1050
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/ertp/src/amountStore.js",
+      "mtime": "2024-11-25T16:23:18.515Z",
+      "size": 938
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/node_modules/@agoric/base-zone/src/index.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 306
+    },
+    {
+      "relativePath": "../../../node_modules/@endo/stream/index.js",
+      "mtime": "2024-11-25T14:58:06.521Z",
+      "size": 6689
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/main.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 66
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/node_modules/@agoric/base-zone/src/heap.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 1843
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/node_modules/@agoric/base-zone/src/exports.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 76
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/node_modules/@agoric/base-zone/src/make-once.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 3282
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/node_modules/@agoric/base-zone/src/keys.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 552
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/node_modules/@agoric/base-zone/src/is-passable.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 266
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/zone/node_modules/@agoric/base-zone/src/watch-promise.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 2371
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/ring0/main.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 132
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/ring1/main.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 34
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/node_modules/@agoric/base-zone/src/make-once.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 3282
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/node_modules/@agoric/base-zone/src/keys.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 552
+    },
+    {
+      "relativePath": "../../../node_modules/@agoric/internal/node_modules/@agoric/base-zone/src/watch-promise.js",
+      "mtime": "2024-11-25T16:23:19.869Z",
+      "size": 2371
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/ring0/E.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 27
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/ring0/async-generate.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 559
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/ring0/makers.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 1611
+    },
+    {
+      "relativePath": "../../../node_modules/jessie.js/src/ring1/async-tools.js",
+      "mtime": "2024-11-25T14:58:09.263Z",
+      "size": 862
+    }
+  ],
+  "noTransforms": false,
+  "elideComments": true,
+  "format": "endoZipBase64",
+  "conditions": []
+}

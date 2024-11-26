@@ -1,0 +1,44 @@
+{
+  "consume": {
+    "agoricNames": true,
+    "board": true,
+    "chainStorage": true,
+    "startUpgradable": true,
+    "zoe": "makeCoreProposalBehavior",
+    "agoricNamesAdmin": "makeCoreProposalBehavior",
+    "vatAdminSvc": "makeCoreProposalBehavior"
+  },
+  "installation": {
+    "consume": {
+      "offerUp": true
+    },
+    "produce": "makeCoreProposalBehavior"
+  },
+  "issuer": {
+    "consume": {
+      "IST": true
+    },
+    "produce": {
+      "Item": true
+    }
+  },
+  "brand": {
+    "consume": {
+      "IST": true
+    },
+    "produce": {
+      "Item": true
+    }
+  },
+  "instance": {
+    "produce": {
+      "offerUp": true
+    }
+  },
+  "evaluateBundleCap": "makeCoreProposalBehavior",
+  "modules": {
+    "utils": {
+      "runModuleBehaviors": "makeCoreProposalBehavior"
+    }
+  }
+}
