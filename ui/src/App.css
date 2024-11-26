@@ -1,0 +1,689 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    #root {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      justify-content: left;
+      justify-items: left;
+      overflow: hidden;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+
+
+    .logo {
+      height: 2em;
+      padding: 1.5em;
+      will-change: filter;
+      transition: filter 300ms;
+    }
+    .logo:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+    .logo.react:hover {
+      filter: drop-shadow(0 0 2em #61dafbaa);
+    }
+    .logo.agoric:hover {
+      filter: drop-shadow(0 0 2em #fa4a49aa);
+    }
+
+    @keyframes logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+      }
+    }
+
+    .card {
+      padding: 1em;
+      width: 100%;
+    }
+
+    .read-the-docs {
+      color: #888;
+    }
+
+    .piece {
+      width: 6em;
+      border-radius: 10%;
+    }
+
+    .coin {
+      width: 2em;
+      margin: 10px;
+    }
+
+    .trade {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #171717;
+      border-radius: 25px;
+      margin-bottom: 15px;
+    }
+    .card {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+      padding: 2em; /* Increased padding for a more spacious look */
+      width: 100%;
+      max-width: 1200px; /* Limit the width for a more controlled design */
+      margin: 0 auto; /* Center the card */
+      background-color: #ffffff; /* White background */
+      border-radius: 15px; /* Softer, more elegant border radius */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Deeper shadow for a more elevated feel */
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    .card:hover {
+      transform: translateY(-10px); /* Slight lift effect on hover */
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15); /* Bigger shadow on hover */
+    }
+
+    .row-center {
+      display: flex;
+      justify-content: center;
+      gap: 30px; /* Increased gap for better spacing */
+      flex-wrap: wrap;
+      padding: 30px; /* Added padding for breathing room */
+      border-radius: 20px; /* Softer border for the container */
+
+      margin: 30px auto; /* Centered with additional margin */
+      max-width: 1000px; /* Maximum width for the container */
+    }
+
+    .item-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px;
+      border: 1px solid #e0e0e0;
+      border-radius: 15px;
+      background-color: #ffffff;
+      width: 180px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+      font-weight: 400;
+    }
+
+    .item-col:hover {
+      transform: translateY(-5px) scale(1.05); /* Slight lift and scale effect */
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Stronger and deeper shadow */
+    }
+
+    .item-col img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+      object-fit: contain;
+      filter: drop-shadow(12px -12px 11px rgba(17, 17, 17, 0.1));
+      transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transitions for the image */
+    }
+
+    .item-col:hover img {
+      transform: scale(1.25); /* Image scales up when card is hovered */
+      filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2)); /* Stronger shadow around image */
+    }
+
+    .item-col label {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .item-col input[type="number"] {
+      width: 120px;
+      background-color: white;
+      height: 35px;
+      text-align: center;
+      border: 1.5px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+      margin: 10px 0;
+      color: #333;
+      outline: none;
+    }
+
+    .item-col input[type="number"]:focus {
+      border-color: #4caf50;
+    }
+
+
+    button {
+      display: block;
+      width: 250px; /* Larger button for better visibility */
+      height: 50px; /* Slightly taller button */
+      background-color: #4caf50;
+      color: #fff;
+      font-size: 18px; /* Larger font size for better readability */
+      font-weight: bold;
+      text-align: center;
+      border: none;
+      border-radius: 25px; /* Rounded button for elegance */
+      cursor: pointer;
+      margin: 25px auto; /* Increased margin for spacing */
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049; /* Slightly darker green on hover */
+      transform: translateY(-3px); /* Subtle lift effect on hover */
+    }
+
+    input {
+      border: none;
+      background: #242424;
+      text-align: center;
+      padding: 8px 12px; /* More padding for a larger input box */
+      border-radius: 20px; /* Rounded input box for elegance */
+      font-size: 1.4rem; /* Larger font size */
+      width: 90px; /* Wider input field */
+    }
+
+    @media (prefers-color-scheme: light) {
+      .trade {
+        background: #fafafa; /* Light background for better contrast */
+        border: 1px solid #e5e5e5;
+      }
+      input {
+        background: #e5e5e5;
+      }
+    }
+
+    .error {
+      background-color: #E11D48;
+      color: #fff;
+    }
+
+    /* increment/decrement arrows always visible */
+    input[type=number]::-webkit-inner-spin-button {
+      opacity: 1;
+    }
+
+    .logo {
+      display: inline;
+      justify-self: left;
+      height: 155px;
+      object-fit: contain;
+      cursor: pointer;
+      padding: 0;
+      transition: transform 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.05); /* Slight zoom on hover */
+    }
+
+    input {
+      border: none;
+      background: #242424;
+      text-align: center;
+      padding: 5px 10px;
+      border-radius: 15px;
+      font-size: 1.2rem;
+      width: 75px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      .trade {
+        background: #fafafa;
+        border: 1px solid #e5e5e5;
+      }
+      input {
+        background: #e5e5e5;
+      }
+    }
+
+    .error {
+      background-color: #E11D48;
+      color: #fff;
+    }
+
+    /* increment/decrement arrows always visible */
+    input[type=number]::-webkit-inner-spin-button {
+      opacity: 1
+    }
+
+
+    .logo {
+      display: inline;
+      justify-self: left;
+      height: 225px; /* Adjust size as needed */
+      object-fit: contain;
+      cursor: pointer;
+      padding: 0;
+    }
+
+  /* IST card and make offer button style */
+  .trade-purchaser .ist-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  .trade-purchaser .ist-card label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .trade-purchaser .ist-card .trade-input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+
+  .make-offer-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+
+  .make-offer-button:hover {
+    background-color: #45a049;
+  }
+
+  .make-offer-button:disabled {
+    background-color: #c7c7c7;
+    cursor: not-allowed;
+  }
+
+
+  /* App.css */
+
+  /* Cart Button */
+  .cart-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /* Overlay (Blurred Background) */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px); /* Blur effect */
+  }
+
+  /* Popup (TradePurchaser Component) */
+  .popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  /* Close Button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+  }
+
+
+  /* The overlay that darkens the background */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  /* The actual popup */
+  .popup {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+  }
+
+  /* Close button for the popup */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  /* Cart button styling */
+  .cart-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+  }
+
+  .cart-button:hover {
+    background: #e55347;
+  }
+
+  .inventory-dropdown {
+    position: absolute;
+    top: 50px;  /* Adjust based on your layout */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .card {
+    position: relative;
+    padding: 20px;
+  }
+
+  button {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+
+  h3 {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: rgb(43, 186, 238);
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .connect-button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .connect-button:hover {
+    background-color: #45a049;
+  }
+
+  .connect-icon {
+    width: 20px;
+    margin-right: 8px;
+  }
+
+  /* Inventory and other elements styles */
+  .inventory-dropdown {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .close-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+
+  /* Navbar Styles */
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffefe;
+    padding: 10px 20px;
+    height: 5%;
+  }
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 200px;
+  }
+
+  .connect-button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .connect-button:hover {
+    background-color: #45a049;
+  }
+
+  .connect-icon {
+    width: 20px;
+    margin-right: 8px;
+  }
+
+  /* Inventory and other elements styles */
+  .inventory-dropdown {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .close-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+
+  .show-offer-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .show-offer-btn:hover {
+    background-color: #45a049;
+  }
+
+
+  .close-btn {
+    z-index: 10000000;
+  }
+
+  .inventory:hover {
+    transform: translate(0);
+  }
+
+  .row-center section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .trigger {
+    width: 100%;
+    background-color: #f49939;
+    border: white;
+    filter: drop-shadow(2px white);
+  }
+
+  .trigger:hover {
+    background-color: #e8820e;
+  }
+
+  body {
+    background-image: url("../src/assets/bg.jpg");
+    background-blend-mode: darken;
+    
+  }
+
+  .shower {
+    width: 100%;
+    background-color: #ff7e00;
+  }
+  .shower:hover {
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+  }
+
+  .of {
+    color: rgb(29, 167, 29) !important;
+  }
+
+  h3 {
+    color: #ff8c18;
+    filter:brightness(1   00%);
+
+  }
+
+  .connect-button {
+    background-color: white;
+    border: 2px solid #ff7e00;
+    color: #ff7e00;
+  }
+
+  .trade {
+    background-color: rgba(244, 244, 244, 0.922);
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.49);
+  }
